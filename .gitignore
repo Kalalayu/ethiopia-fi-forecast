@@ -1,0 +1,44 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm / VSCode settings
+.idea/
+.vscode/
+
+# Data files (raw large files)
+data/raw/
+*.csv
+*.tsv
+*.xlsx
+
+# Processed data (optional — you may want to track small processed CSVs)
+data/
+data/processed/*.csv
+
+
+# Python cache / logs
+*.log
+*.sqlite
+*.db
+
+# Mac / Linux temporary files
+.DS_Store
+*.swp
+*.swo
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
