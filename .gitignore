@@ -42,3 +42,59 @@ dist/
 *.egg-info/
 .eggs/
 *.egg
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# =========================
+# Data (keep raw data if required)
+# =========================
+data/processed/*
+!data/processed/.gitkeep
+
+# =========================
+# Models & Outputs
+# =========================
+models/*
+!models/.gitkeep
+
+reports/figures/*
+!reports/figures/.gitkeep
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.bak
