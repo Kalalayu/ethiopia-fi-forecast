@@ -1,58 +1,22 @@
-# Byte-compiled / optimized Python files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environment
-venv/
-env/
-.venv/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# PyCharm / VSCode settings
-.idea/
-.vscode/
-
-# Data files (raw large files)
-data/raw/
-*.csv
-*.tsv
-*.xlsx
-
-# Processed data (optional — you may want to track small processed CSVs)
-data/
-data/processed/*.csv
-
-
-# Python cache / logs
-*.log
-*.sqlite
-*.db
-
-# Mac / Linux temporary files
-.DS_Store
-*.swp
-*.swo
-
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
-.eggs/
-*.egg
 # =========================
 # Python
 # =========================
-__pycache__/
+pycache/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
 
-# Virtual environments
-venv/
-.env/
+# =========================
+# Virtual Environments
+# =========================
 .venv/
+venv/
+env/
 
 # =========================
 # Jupyter
@@ -60,41 +24,35 @@ venv/
 .ipynb_checkpoints/
 
 # =========================
-# OS / Editor files
+# VS Code
 # =========================
-.DS_Store
-Thumbs.db
-.idea/
 .vscode/
 
 # =========================
-# Data (keep raw data if required)
+# OS files
 # =========================
-data/processed/*
-!data/processed/.gitkeep
+.DS_Store
+Thumbs.db
+desktop.ini
 
 # =========================
-# Models & Outputs
+# Data & outputs
 # =========================
-models/*
-!models/.gitkeep
-
-reports/figures/*
-!reports/figures/.gitkeep
-
-# =========================
-# Logs
-# =========================
+data/processed/
+models/
+reports/figures/
 *.log
-
+data/
 # =========================
-# Environment / secrets
+# Secrets
 # =========================
 .env
-.env.*
+*.key
+*.pem
 
 # =========================
 # Temporary files
 # =========================
 *.tmp
 *.bak
+*.swp
