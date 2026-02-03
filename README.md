@@ -129,6 +129,18 @@ Deliver an interactive analytics dashboard using **Streamlit**.
 - ✅ Clean, reproducible codebase  
 
 ---
+## Continuous Integration (CI)
+
+This project uses GitHub Actions to automatically validate code quality.
+On every push or pull request, the CI pipeline:
+
+- Installs project dependencies
+- Runs unit tests for the impact modeling module
+- Ensures core analytical functions execute correctly
+
+This helps maintain reproducibility and prevents regressions as the project evolves.
+
+---
 
 ## 🎯 Key Questions Addressed
 

@@ -56,3 +56,5 @@ data/
 *.tmp
 *.bak
 *.swp
+# Virtual environment
+venv/
